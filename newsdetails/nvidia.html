@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biostealthAI</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <meta property="og:image" content="https://biostealth.ai/uploads/blogImg/21.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://biostealth.ai/frontend_asset/backup/css/all.min.css">-->
+    <link rel="stylesheet" href="https://biostealth.ai/frontend_asset/backup/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://biostealth.ai/frontend_asset/backup/css/slick.min.css" />
+
+    <link rel="shortcut icon" type="image/png" href="https://biostealth.ai/frontend_asset/backup/images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://biostealth.ai/frontend_asset/css/all.min.css">
+    <link rel="stylesheet" href="https://biostealth.ai/frontend_asset/css/style2.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172162552-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-172162552-1');
+    </script>
+</head>
+
+<body onload="callREST()">
+
+
+    <!-----------------------------------------------------------------------------------------------------------------------
+---------------------------------------------- Navbar desigh started from here -----------------------------------------
+---------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+    <div class="menu">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="https://biostealth.ai">
+                    <img src="https://biostealth.ai/frontend_asset/images2/logo/BiostealthAI logo web.png" alt=""
+                        srcset="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="text-white fa-solid fa-ellipsis-vertical"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link " href="https://biostealth.ai">Home <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                                Company <i class="fa-solid fa-arrow-down"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="https://biostealth.ai/about">About</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://biostealth.ai/blog">Blog</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="contact_btn nav-link " href="https://biostealth.ai/contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+
+    <!-----------------------------------------------------------------------------------------------------------------------
+---------------------------------------------- Navbar desigh ends from here -----------------------------------------
+---------------------------------------------------------------------------------------------------------------------- -->
+    <!--  ================================
+            paper banner part start
+    ================================== -->
+    <div class="about_banner d-flex justify-content-center align-items-center">
+        <div class="content">
+            <div class="banner_mark ">
+                <h2 class="text-center">BiostealthAI joins Nvidia Inception to Revolutionise Healthcare AI</h2>
+                <h3 class="text-center text-white pt-5"><i>March 25, 2024</i></h3>
+            </div>
+        </div>
+    </div>
+    <section id="blogDetails-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="p124">
+                        <h4><a href="../news.html"><span>&#x3C;</span> All posts</a></h4>
+                        <!-- <h2>BiostealthAI joins Nvidia Inception to Revolutionise Healthcare AI</h2>
+                        <p>
+                            <img src="https://biostealth.ai/uploads/profile/8.jpg" class="img-fluid" alt="">
+                            Desmond | Lead Clinician
+                        </p> -->
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="pl124">
+                        <p class="date-time">March 25, 2024 | <a href="../news.html">News</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="pr124">
+                        <div id="social-links">
+                            <ul>
+                                <li><a href="https://www.linkedin.com/sharing/share-offsite?mini=true&url=https://biostealth.ai/blog/Details/about-diabetes-insipidus-hBWX4&title=&summary="
+                                        class="social-button " id="" title="" rel=""><span
+                                            class="fab fa-linkedin"></span></a></li>
+                                <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://biostealth.ai/blog/Details/about-diabetes-insipidus-hBWX4"
+                                        class="social-button " id="" title="" rel=""><span
+                                            class="fab fa-facebook-square"></span></a></li>
+                                <li><a href="https://twitter.com/intent/tweet?text=Default+share+text&url=https://biostealth.ai/blog/Details/about-diabetes-insipidus-hBWX4"
+                                        class="social-button " id="" title="" rel=""><span
+                                            class="fab fa-twitter"></span></a></li>
+                            </ul>
+                        </div>
+                        <ul>
+                            <li class="shre-li"><span>Share : </span></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blogDetails" class="wow slideInRight" data-wow-offset="10" data-wow-iteration="10">
+        <div class="container" class="wow slideInRight" data-wow-offset="10" data-wow-iteration="10">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="p124">
+                        <img src="../assets/nvidia.png" class="img-fluid mobile-none desk_block" alt="">
+
+                        <p>
+                        <p><br><br>LONDON, UK— March 20, 2023 — BiostealthAI® today announced it has joined NVIDIA
+                            Inception, a programme that nurtures startups revolutionising industries with technological
+                            advancements.&nbsp;<br><br>
+
+                            BiostealthAI, has announced its participation in the NVIDIA Inception program, marking a
+                            significant milestone in its mission to democratise access to life-saving healthcare
+                            solutions. NVIDIA Inception, known for providing startups with cutting-edge technology and
+                            technical resources, aligns perfectly with BiostealthAI's vision of harnessing AI to ensure
+                            swift access to medical-grade monitoring for all, regardless of socioeconomic background.
+
+                            <br><br>CEO of BiostealthAI, Israel Gbati, emphasises, "We should all work together to break
+                            down barriers and ensure that no one is left behind in reaping the benefits of digital
+                            health technologies". BiostealthAI was established with the goal of monitoring health
+                            silently, proactively and continuously, detecting early symptoms of life-threatening 'silent
+                            killers' as they develop. Through its innovative Touchable® technology, BiostealthAI
+                            introduces a new generation of medical-grade health monitoring devices seamlessly integrated
+                            into homes and workplaces, revolutionising preventive care.
+
+                            <br><br>At the core of BiostealthAI’s initiatives lies the development of an AI system to
+                            classify time series Photoplethysmography (PPG) signals. By leveraging NVIDIA GPUs for deep
+                            learning model training and high-performance computing tasks, BiostealthAI aims to
+                            accelerate the diagnosis and treatment of Heart and Lung disease. "We are designing our
+                            system to perform inference on the edge, eventually transitioning to the cloud," Israel
+                            Gbati explains. "Joining the NVIDIA Inception program presents an unparalleled opportunity
+                            to expose us to cutting-edge AI tools and resources, significantly impacting our AI
+                            development and strategy."
+
+                            <br><br>Through advanced signal processing techniques and calibration strategies,
+                            BiostealthAI will ensure its devices work for everyone, providing seamless, preventative
+                            health screening for millions of people at risk. The integration of AI and Big Data enables
+                            BiostealthAI to expand the capabilities of PPG sensing beyond traditional pulse oximetry,
+                            achieving precise measurements of parameters such as blood pressure biomarkers, stress
+                            levels, and other cardiovascular health indicators.
+
+                            <br><br><b>About BiostealthAI</b>
+
+                            <br><br>BiostealthAI was established by innovator Israel Gbati and respiratory health
+                            advocate Georgios Papanikolaou, in a bid to monitor health 100% silently and continuously,
+                            detecting early symptoms of life-threatening ’silent killers’ as they begin to develop. With
+                            the emergence of high-processing-power chips, and advanced miniaturised sensor technology
+                            the time has arrived for Touchable® technology to enter our lives. Touchables™ are a new
+                            generation of medical-grade, health monitoring objects, seamlessly integrated into everyday
+                            living, that perform continuous, non-invasive health monitoring, without the need to wear a
+                            device, turn it on, put it to charge, or even think about it.
+
+
+                        </p>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  ================================
+                paper banner part end
+        ================================== -->
+    <!-----------------------------------------------------------------------------------------------------------------------
+---------------------------------------------- CONTACT section design started from here -------------------------------
+---------------------------------------------------------------------------------------------------------------------- -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h6>
+                        Home > News > BiostealthAI joins Nvidia Inception
+                    </h6>
+                    <div class="mark2"></div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="links d-flex justify-content-between">
+                        <div class="left">
+                            <ul>
+                                <li class="text-uppercase pb-2"><b>Company</b></li>
+                                <li><a href="https://biostealth.ai/about">About Us</a></li>
+                                <li>News</li>
+                                <li><a href="https://biostealth.ai/blog">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="middle">
+                            <ul>
+                                <li class="text-uppercase pb-2"><b>Support</b></li>
+                                <li><a href="https://biostealth.ai/contact">Contact Us</a></li>
+                                <li><a href="#"><b>LEGAL</b></a></li>
+                                <li><a href="https://biostealth.ai/terms">Terms & Condition</a></li>
+                                <li><a href="https://biostealth.ai/privacy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <ul>
+                                <li class="text-uppercase pb-2"><a href="#"><i
+                                            class="icon fa-brands fa-linkedin"></i></a></li>
+                                <li>© Biostealth LTD. 2024</li>
+                                <li>All Rights Reserved</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://biostealth.ai/frontend_asset/backup/js/jquery-1.12.4.min.js"></script>
+    <script src="https://biostealth.ai/frontend_asset/backup/js/popper.min.js"></script>
+    <script src="https://biostealth.ai/frontend_asset/backup/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://biostealth.ai/frontend_asset/backup/js/slick.min.js"></script>
+    <script src="https://biostealth.ai/frontend_asset/backup/js/mixitup.min.js"></script>
+    <script src="https://biostealth.ai/frontend_asset/js/script.js"></script>
+
+</body>
+
+</html>
