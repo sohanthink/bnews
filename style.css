@@ -66,3 +66,9 @@
   bottom: 35%;
   transform: translate(-50%, -50%);
 }
+#recent_update .recent_slide_item {
+  height: 390px;
+}
+#blogDetails p {
+  font-size: 21px;
+}
