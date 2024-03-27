@@ -63,7 +63,7 @@
   transition: all linear 0.3s 0.2s;
 }
 .news .news-img-overlay:hover h4 {
-  bottom: 35%;
+  bottom: 15%;
   transform: translate(-50%, -50%);
 }
 #recent_update .recent_slide_item {
